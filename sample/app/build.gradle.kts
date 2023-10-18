@@ -1,8 +1,9 @@
 plugins {
     application
     kotlin("jvm") version "1.9.10"
-    //Fixme: Uncomment to get configuration error
+    //Fixme: Uncomment any line to get a configuration error
     //id("gradle-cp")
+    //id("ru.cusxy.gradle.plugin") version "1.0.0"
 }
 
 kotlin {

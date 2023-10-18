@@ -31,7 +31,7 @@ afterEvaluate {
             repositories {
                 maven {
                     name = "projectLocal"
-                    url = uri("../.m2")
+                    url = uri("${rootProject.projectDir}/../.m2")
                 }
             }
         }

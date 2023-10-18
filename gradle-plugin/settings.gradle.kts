@@ -1,4 +1,4 @@
-rootProject.name = "gradle-cp"
+rootProject.name = "gradle-plugin"
 
 pluginManagement {
     repositories {
