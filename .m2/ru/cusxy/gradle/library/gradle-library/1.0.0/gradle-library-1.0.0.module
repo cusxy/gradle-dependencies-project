@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ru.cusxy.gradle.library",
+    "module": "gradle-library",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gradle-library-1.0.0.jar",
+          "url": "gradle-library-1.0.0.jar",
+          "size": 2166,
+          "sha512": "d8507c454fcd1a37675a2a3001a5971cb3fd3c9e77a53e32ac56602d50a28ef946c99f44b44edb5382e02242828467e5bcd9646b87ece5e0d246d8955f52d295",
+          "sha256": "df36d0ba796f6d749d759a55221fdd3c47beb2885321f82ffa0dd3de1eaff447",
+          "sha1": "d20f2f96855da2bf5925a4aa3766be4fb529feda",
+          "md5": "b6c511fcdf5a71aca9d0333d23a3d453"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gradle-library-1.0.0.jar",
+          "url": "gradle-library-1.0.0.jar",
+          "size": 2166,
+          "sha512": "d8507c454fcd1a37675a2a3001a5971cb3fd3c9e77a53e32ac56602d50a28ef946c99f44b44edb5382e02242828467e5bcd9646b87ece5e0d246d8955f52d295",
+          "sha256": "df36d0ba796f6d749d759a55221fdd3c47beb2885321f82ffa0dd3de1eaff447",
+          "sha1": "d20f2f96855da2bf5925a4aa3766be4fb529feda",
+          "md5": "b6c511fcdf5a71aca9d0333d23a3d453"
+        }
+      ]
+    }
+  ]
+}
